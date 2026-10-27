@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Gustavo Quintero · Desarrollador Full Stack Senior · Tech Lead</title>
+  <desc id="desc">PHP, Python, Docker, ERP y SaaS multiempresa, CFDI 4.0 e IA aplicada. Guadalajara, México.</desc>
+  <style>
+    .t  { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .m  { font-family: Consolas, Menlo, 'Courier New', monospace; }
+    .in { opacity: 0; animation: aparece .6s ease-out forwards; }
+    .d1 { animation-delay: .1s } .d2 { animation-delay: .4s } .d3 { animation-delay: .7s }
+    .l1 { animation-delay: 1.0s } .l2 { animation-delay: 1.4s } .l3 { animation-delay: 1.8s } .l4 { animation-delay: 2.2s } .l5 { animation-delay: 2.6s }
+    .cursor { animation: parpadeo 1s steps(1) infinite; }
+    .brillo { animation: brillo 6s ease-in-out infinite; }
+    @keyframes aparece { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+    @keyframes parpadeo { 50% { opacity: 0 } }
+    @keyframes brillo { 0%,100% { opacity: .35 } 50% { opacity: .7 } }
+  </style>
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#11263d"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="rejilla" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#fondo)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#rejilla)"/>
+  <rect class="brillo" width="1200" height="300" rx="16" fill="url(#halo)"/>
+
+  <rect x="64" y="72" width="6" height="128" rx="3" fill="#38bdf8"/>
+  <text class="t in d1" x="94" y="118" fill="#f8fafc" font-size="50" font-weight="700">Gustavo Quintero</text>
+  <text class="t in d2" x="96" y="160" fill="#7dd3fc" font-size="26">Desarrollador Full Stack Senior · Tech Lead</text>
+  <text class="t in d3" x="96" y="196" fill="#94a3b8" font-size="20">ERP y SaaS multiempresa · CFDI 4.0 · IA aplicada · Guadalajara, México</text>
+
+  <g class="m in d3" font-size="17" fill="#cbd5e1">
+    <rect x="96" y="226" width="62" height="30" rx="6" fill="#1e293b"/><text x="108" y="247">PHP</text>
+    <rect x="168" y="226" width="86" height="30" rx="6" fill="#1e293b"/><text x="180" y="247">Python</text>
+    <rect x="264" y="226" width="86" height="30" rx="6" fill="#1e293b"/><text x="276" y="247">Docker</text>
+    <rect x="360" y="226" width="96" height="30" rx="6" fill="#1e293b"/><text x="372" y="247">MariaDB</text>
+    <rect x="466" y="226" width="86" height="30" rx="6" fill="#1e293b"/><text x="478" y="247">OpenAI</text>
+    <rect x="562" y="226" width="96" height="30" rx="6" fill="#1e293b"/><text x="574" y="247">Coolify</text>
+  </g>
+
+  <rect x="790" y="62" width="350" height="176" rx="10" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="810" cy="80" r="5" fill="#f87171"/><circle cx="826" cy="80" r="5" fill="#fbbf24"/><circle cx="842" cy="80" r="5" fill="#34d399"/>
+  <g class="m" font-size="15">
+    <text class="in l1" x="808" y="112" fill="#38bdf8">$ git log --oneline</text>
+    <text class="in l2" x="808" y="138" fill="#94a3b8"><tspan fill="#fbbf24">a1f3c2e</tspan>  feat: timbrado CFDI 4.0</text>
+    <text class="in l3" x="808" y="162" fill="#94a3b8"><tspan fill="#fbbf24">9be07d4</tspan>  feat: dictado con IA</text>
+    <text class="in l4" x="808" y="186" fill="#94a3b8"><tspan fill="#fbbf24">4c2d8a1</tspan>  ci: deploy a Coolify</text>
+    <text class="in l5" x="808" y="210" fill="#94a3b8"><tspan fill="#fbbf24">e71b5f0</tspan>  fix: respaldo cifrado</text>
+    <text class="in l5" x="808" y="230" fill="#38bdf8">$ <tspan class="cursor">▌</tspan></text>
+  </g>
+</svg>

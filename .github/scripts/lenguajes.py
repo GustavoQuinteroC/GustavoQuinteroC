@@ -8,7 +8,9 @@ tarjeta con el mismo tema y alto que la de rachas (tokyonight, 195 px).
 import json
 import os
 import sys
+import urllib.error
 import urllib.request
+from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 
 API = "https://api.github.com"
@@ -25,14 +27,39 @@ COLORES = {
 }
 
 
+VENCE = {}
+
+
 def pedir(url, token):
     req = urllib.request.Request(url, headers={
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
     })
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            # Ejemplo: "2027-10-27 06:00:00 UTC"
+            if r.headers.get("github-authentication-token-expiration"):
+                VENCE["fecha"] = r.headers["github-authentication-token-expiration"]
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        if e.code == 401:
+            sys.exit("El token LENGUAJES_TOKEN venció o ya no es válido. Genera uno nuevo "
+                     "(solo lectura de metadatos, todos los repositorios) y reemplaza el secret.")
+        raise
+
+
+def avisar_vencimiento():
+    """Deja en GITHUB_OUTPUT los días que le quedan al token."""
+    if "fecha" not in VENCE:
+        return
+    vence = datetime.strptime(VENCE["fecha"].replace(" UTC", ""), "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+    dias = (vence - datetime.now(timezone.utc)).days
+    print(f"El token vence el {vence:%Y-%m-%d} ({dias} días)")
+    salida = os.environ.get("GITHUB_OUTPUT")
+    if salida:
+        with open(salida, "a", encoding="utf-8") as f:
+            f.write(f"dias_token={dias}\nvence_token={vence:%Y-%m-%d}\n")
 
 
 def contar(token):
@@ -99,3 +126,4 @@ if __name__ == "__main__":
     with open(SALIDA, "w", encoding="utf-8") as f:
         f.write(dibujar(totales))
     print("Lenguajes:", ", ".join(f"{n} {b}" for n, b in sorted(totales.items(), key=lambda x: -x[1])))
+    avisar_vencimiento()

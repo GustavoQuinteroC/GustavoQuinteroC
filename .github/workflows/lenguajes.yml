@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generar lenguajes.svg
+        id: generar
         env:
           LENGUAJES_TOKEN: ${{ secrets.LENGUAJES_TOKEN }}
         run: python3 .github/scripts/lenguajes.py lenguajes.svg
@@ -30,3 +31,12 @@ jobs:
           git add lenguajes.svg
           git commit -m "Actualiza lenguajes más usados"
           git push
+
+      # Un run fallido le llega por correo al dueño del repo. Faltando 14 días
+      # o menos, el run se marca como fallido a propósito (la tarjeta ya quedó
+      # actualizada) para avisar con tiempo de renovar el token.
+      - name: Avisar si el token está por vencer
+        if: steps.generar.outputs.dias_token != '' && fromJSON(steps.generar.outputs.dias_token) <= 14
+        run: |
+          echo "::error::El token LENGUAJES_TOKEN vence el ${{ steps.generar.outputs.vence_token }} (faltan ${{ steps.generar.outputs.dias_token }} días). Genera uno nuevo y reemplaza el secret."
+          exit 1

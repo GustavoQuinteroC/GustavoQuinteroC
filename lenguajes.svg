@@ -3,14 +3,15 @@
   <style>
     .titulo { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
     .lang { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+    .num { fill: #a9b1d6; }
   </style>
   <rect width="350" height="195" fill="#1a1b27"/>
   <text x="25" y="40" class="titulo">Lenguajes más usados</text>
   <svg x="25" y="62" width="300" height="10">
     <mask id="barra"><rect width="300" height="10" rx="5" fill="#fff"/></mask>
     <g mask="url(#barra)">
-      <rect x="0.00" width="199.37" height="10" fill="#4F5D95"/><rect x="199.37" width="77.33" height="10" fill="#663399"/><rect x="276.70" width="14.17" height="10" fill="#e34c26"/><rect x="290.87" width="3.90" height="10" fill="#f7523f"/><rect x="294.77" width="2.80" height="10" fill="#8b949e"/><rect x="297.57" width="2.43" height="10" fill="#f1e05a"/>
+      <rect x="0.00" width="102.13" height="10" fill="#4F5D95"/><rect x="102.13" width="95.74" height="10" fill="#663399"/><rect x="197.87" width="63.83" height="10" fill="#e34c26"/><rect x="261.70" width="12.77" height="10" fill="#878787"/><rect x="274.47" width="6.38" height="10" fill="#f7523f"/><rect x="280.85" width="6.38" height="10" fill="#f1e05a"/><rect x="287.23" width="6.38" height="10" fill="#f34b7d"/><rect x="293.62" width="6.38" height="10" fill="#3572A5"/>
     </g>
   </svg>
-  <circle cx="30" cy="101" r="5" fill="#4F5D95"/><text x="41" y="105" class="lang">PHP 65.82%</text><circle cx="30" cy="126" r="5" fill="#663399"/><text x="41" y="130" class="lang">CSS 25.53%</text><circle cx="30" cy="151" r="5" fill="#e34c26"/><text x="41" y="155" class="lang">HTML 4.68%</text><circle cx="190" cy="101" r="5" fill="#f7523f"/><text x="201" y="105" class="lang">Blade 1.29%</text><circle cx="190" cy="126" r="5" fill="#8b949e"/><text x="201" y="130" class="lang">XSLT 0.92%</text><circle cx="190" cy="151" r="5" fill="#f1e05a"/><text x="201" y="155" class="lang">JavaScript 0.80%</text>
+  <circle cx="30" cy="100.0" r="5" fill="#4F5D95"/><text x="41" y="104.0" class="lang">PHP <tspan class="num">16 repos</tspan></text><circle cx="30" cy="125.0" r="5" fill="#663399"/><text x="41" y="129.0" class="lang">CSS <tspan class="num">15 repos</tspan></text><circle cx="30" cy="150.0" r="5" fill="#e34c26"/><text x="41" y="154.0" class="lang">HTML <tspan class="num">10 repos</tspan></text><circle cx="30" cy="175.0" r="5" fill="#878787"/><text x="41" y="179.0" class="lang">Hack <tspan class="num">2 repos</tspan></text><circle cx="190" cy="100.0" r="5" fill="#f7523f"/><text x="201" y="104.0" class="lang">Blade <tspan class="num">1 repo</tspan></text><circle cx="190" cy="125.0" r="5" fill="#f1e05a"/><text x="201" y="129.0" class="lang">JavaScript <tspan class="num">1 repo</tspan></text><circle cx="190" cy="150.0" r="5" fill="#f34b7d"/><text x="201" y="154.0" class="lang">C++ <tspan class="num">1 repo</tspan></text><circle cx="190" cy="175.0" r="5" fill="#3572A5"/><text x="201" y="179.0" class="lang">Python <tspan class="num">1 repo</tspan></text>
 </svg>

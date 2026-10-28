@@ -19,8 +19,8 @@ from xml.sax.saxutils import escape
 API = "https://api.github.com"
 MAX_LENGUAJES = 12
 # Un lenguaje cuenta para un repo si ocupa al menos esta parte de su código;
-# así el CSS o JS de una librería incluida no suma el repo entero.
-MIN_PARTICIPACION = 0.10
+# así un resto suelto (un archivo de configuración, un script mínimo) no suma.
+MIN_PARTICIPACION = 0.02
 # GitHub a veces detecta archivos .php como Hack; se cuentan como PHP.
 ALIAS = {"Hack": "PHP"}
 EXCLUIR_REPOS = {"GustavoQuinteroC"}

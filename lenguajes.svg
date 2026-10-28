@@ -2,7 +2,7 @@
   <title id="titulo">Lenguajes más usados</title>
   <style>
     .titulo { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
-    .lang { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+    .lang { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
     .num { fill: #a9b1d6; }
   </style>
   <rect width="350" height="195" fill="#1a1b27"/>
@@ -10,8 +10,8 @@
   <svg x="25" y="62" width="300" height="10">
     <mask id="barra"><rect width="300" height="10" rx="5" fill="#fff"/></mask>
     <g mask="url(#barra)">
-      <rect x="0.00" width="110.87" height="10" fill="#4F5D95"/><rect x="110.87" width="97.83" height="10" fill="#663399"/><rect x="208.70" width="65.22" height="10" fill="#e34c26"/><rect x="273.91" width="6.52" height="10" fill="#f7523f"/><rect x="280.43" width="6.52" height="10" fill="#f1e05a"/><rect x="286.96" width="6.52" height="10" fill="#f34b7d"/><rect x="293.48" width="6.52" height="10" fill="#3572A5"/>
+      <rect x="0.00" width="88.52" height="10" fill="#4F5D95"/><rect x="88.52" width="88.52" height="10" fill="#663399"/><rect x="177.05" width="49.18" height="10" fill="#e34c26"/><rect x="226.23" width="44.26" height="10" fill="#f1e05a"/><rect x="270.49" width="9.84" height="10" fill="#f34b7d"/><rect x="280.33" width="4.92" height="10" fill="#f7523f"/><rect x="285.25" width="4.92" height="10" fill="#8b949e"/><rect x="290.16" width="4.92" height="10" fill="#3572A5"/><rect x="295.08" width="4.92" height="10" fill="#384d54"/>
     </g>
   </svg>
-  <circle cx="30" cy="100.0" r="5" fill="#4F5D95"/><text x="41" y="104.0" class="lang">PHP <tspan class="num">17 repos</tspan></text><circle cx="30" cy="125.0" r="5" fill="#663399"/><text x="41" y="129.0" class="lang">CSS <tspan class="num">15 repos</tspan></text><circle cx="30" cy="150.0" r="5" fill="#e34c26"/><text x="41" y="154.0" class="lang">HTML <tspan class="num">10 repos</tspan></text><circle cx="30" cy="175.0" r="5" fill="#f7523f"/><text x="41" y="179.0" class="lang">Blade <tspan class="num">1 repo</tspan></text><circle cx="190" cy="100.0" r="5" fill="#f1e05a"/><text x="201" y="104.0" class="lang">JavaScript <tspan class="num">1 repo</tspan></text><circle cx="190" cy="125.0" r="5" fill="#f34b7d"/><text x="201" y="129.0" class="lang">C++ <tspan class="num">1 repo</tspan></text><circle cx="190" cy="150.0" r="5" fill="#3572A5"/><text x="201" y="154.0" class="lang">Python <tspan class="num">1 repo</tspan></text>
+  <circle cx="30" cy="100.0" r="4" fill="#4F5D95"/><text x="41" y="104.0" class="lang">PHP <tspan class="num">18 repos</tspan></text><circle cx="30" cy="119.5" r="4" fill="#663399"/><text x="41" y="123.5" class="lang">CSS <tspan class="num">18 repos</tspan></text><circle cx="30" cy="139.0" r="4" fill="#e34c26"/><text x="41" y="143.0" class="lang">HTML <tspan class="num">10 repos</tspan></text><circle cx="30" cy="158.5" r="4" fill="#f1e05a"/><text x="41" y="162.5" class="lang">JavaScript <tspan class="num">9 repos</tspan></text><circle cx="30" cy="178.0" r="4" fill="#f34b7d"/><text x="41" y="182.0" class="lang">C++ <tspan class="num">2 repos</tspan></text><circle cx="190" cy="100.0" r="4" fill="#f7523f"/><text x="201" y="104.0" class="lang">Blade <tspan class="num">1 repo</tspan></text><circle cx="190" cy="119.5" r="4" fill="#8b949e"/><text x="201" y="123.5" class="lang">XSLT <tspan class="num">1 repo</tspan></text><circle cx="190" cy="139.0" r="4" fill="#3572A5"/><text x="201" y="143.0" class="lang">Python <tspan class="num">1 repo</tspan></text><circle cx="190" cy="158.5" r="4" fill="#384d54"/><text x="201" y="162.5" class="lang">Dockerfile <tspan class="num">1 repo</tspan></text>
 </svg>

@@ -32,7 +32,7 @@ Desarrollador full stack y líder técnico en Guadalajara. Construyo y opero sof
 | [**GeoCheck**](https://geocheck.alkes.mx) | Control de asistencia | Geolocalización y fotografía |
 | [**SysPower**](https://syspower.alkes.mx) | Control remoto de equipos | Firmware ESP32 propio con actualizaciones OTA |
 
-> El código de estos productos es privado. Con gusto lo muestro en una entrevista técnica.
+> El código de estos productos es privado y con gusto lo muestro en una entrevista técnica. Las páginas públicas de cada uno están abiertas en la sección de proyectos.
 
 ## 🛠️ Stack
 
@@ -71,6 +71,12 @@ Desarrollador full stack y líder técnico en Guadalajara. Construyo y opero sof
 
 | Repositorio | Qué demuestra |
 |---|---|
+| [**smartpend_landing_page**](https://github.com/GustavoQuinteroC/smartpend_landing_page) | Página pública de SmartPend: pendientes y proyectos con folio, historial y formularios públicos |
+| [**mantis_landing_page**](https://github.com/GustavoQuinteroC/mantis_landing_page) | Página pública de Mantis: mantenimiento preventivo y correctivo con checklists y evidencias |
+| [**geocheck_landing_page**](https://github.com/GustavoQuinteroC/geocheck_landing_page) | Página pública de GeoCheck: control de asistencia por ubicación con NIP, geocerca y foto |
+| [**syspower_landing_page**](https://github.com/GustavoQuinteroC/syspower_landing_page) | Página pública de SysPower: reinicio físico remoto de equipos críticos desde el navegador |
+| [**erp_landing_page**](https://github.com/GustavoQuinteroC/erp_landing_page) | Página pública de Alkes ERP: gestión empresarial con facturación CFDI 4.0 |
+| [**alkes_landing_page**](https://github.com/GustavoQuinteroC/alkes_landing_page) | Sitio de Alkes: software y soluciones TI, hecho a mano en HTML, CSS y JavaScript |
 | [**herramientas-web**](https://github.com/GustavoQuinteroC/herramientas-web) | Validador de CFDI 4.0 contra XSD en PHP y generadores de QR, contraseñas y gradientes |
 | [**erpNeni**](https://github.com/GustavoQuinteroC/erpNeni) | ERP de ventas e inventarios en Laravel, desplegado en Kubernetes |
 | [**tareasOnKubernetes**](https://github.com/GustavoQuinteroC/tareasOnKubernetes) | API REST en PHP con MariaDB, contenerizada y desplegada en Kubernetes |

@@ -21,6 +21,8 @@ MAX_LENGUAJES = 12
 # Un lenguaje cuenta para un repo si ocupa al menos esta parte de su código;
 # así el CSS o JS de una librería incluida no suma el repo entero.
 MIN_PARTICIPACION = 0.10
+# GitHub a veces detecta archivos .php como Hack; se cuentan como PHP.
+ALIAS = {"Hack": "PHP"}
 EXCLUIR_REPOS = {"GustavoQuinteroC"}
 SALIDA = sys.argv[1] if len(sys.argv) > 1 else "lenguajes.svg"
 
@@ -78,7 +80,10 @@ def contar(token):
         for repo in repos:
             if repo["fork"] or repo["archived"] or repo["name"] in EXCLUIR_REPOS:
                 continue
-            lenguajes = pedir(repo["languages_url"], token)
+            lenguajes = {}
+            for lenguaje, bytes_ in pedir(repo["languages_url"], token).items():
+                lenguaje = ALIAS.get(lenguaje, lenguaje)
+                lenguajes[lenguaje] = lenguajes.get(lenguaje, 0) + bytes_
             total_repo = sum(lenguajes.values())
             for lenguaje, bytes_ in lenguajes.items():
                 if bytes_ / total_repo < MIN_PARTICIPACION:

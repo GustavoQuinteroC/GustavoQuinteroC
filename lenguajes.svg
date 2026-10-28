@@ -6,25 +6,11 @@
   </style>
   <rect width="350" height="195" fill="#1a1b27"/>
   <text x="25" y="40" class="titulo">Lenguajes más usados</text>
-
   <svg x="25" y="62" width="300" height="10">
     <mask id="barra"><rect width="300" height="10" rx="5" fill="#fff"/></mask>
     <g mask="url(#barra)">
-      <rect x="0" width="253.65" height="10" fill="#4F5D95"/>
-      <rect x="253.65" width="24.42" height="10" fill="#663399"/>
-      <rect x="278.07" width="16.83" height="10" fill="#e34c26"/>
-      <rect x="294.90" width="4.14" height="10" fill="#f1e05a"/>
-      <rect x="299.04" width="0.96" height="10" fill="#f34b7d"/>
+      <rect x="0.00" width="199.37" height="10" fill="#4F5D95"/><rect x="199.37" width="77.33" height="10" fill="#663399"/><rect x="276.70" width="14.17" height="10" fill="#e34c26"/><rect x="290.87" width="3.90" height="10" fill="#f7523f"/><rect x="294.77" width="2.80" height="10" fill="#8b949e"/><rect x="297.57" width="2.43" height="10" fill="#f1e05a"/>
     </g>
   </svg>
-
-  <g transform="translate(25, 105)">
-    <circle cx="5" cy="-4" r="5" fill="#4F5D95"/><text x="16" class="lang">PHP 84.55%</text>
-    <circle cx="5" cy="21" r="5" fill="#663399"/><text x="16" y="25" class="lang">CSS 8.14%</text>
-    <circle cx="5" cy="46" r="5" fill="#e34c26"/><text x="16" y="50" class="lang">HTML 5.61%</text>
-  </g>
-  <g transform="translate(185, 105)">
-    <circle cx="5" cy="-4" r="5" fill="#f1e05a"/><text x="16" class="lang">JavaScript 1.38%</text>
-    <circle cx="5" cy="21" r="5" fill="#f34b7d"/><text x="16" y="25" class="lang">C++ 0.31%</text>
-  </g>
+  <circle cx="30" cy="101" r="5" fill="#4F5D95"/><text x="41" y="105" class="lang">PHP 65.82%</text><circle cx="30" cy="126" r="5" fill="#663399"/><text x="41" y="130" class="lang">CSS 25.53%</text><circle cx="30" cy="151" r="5" fill="#e34c26"/><text x="41" y="155" class="lang">HTML 4.68%</text><circle cx="190" cy="101" r="5" fill="#f7523f"/><text x="201" y="105" class="lang">Blade 1.29%</text><circle cx="190" cy="126" r="5" fill="#8b949e"/><text x="201" y="130" class="lang">XSLT 0.92%</text><circle cx="190" cy="151" r="5" fill="#f1e05a"/><text x="201" y="155" class="lang">JavaScript 0.80%</text>
 </svg>

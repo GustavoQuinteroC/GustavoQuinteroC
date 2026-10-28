@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="195" viewBox="0 0 350 195" role="img" aria-labelledby="titulo">
+  <title id="titulo">Lenguajes más usados</title>
+  <style>
+    .titulo { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+    .lang { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+  </style>
+  <rect width="350" height="195" fill="#1a1b27"/>
+  <text x="25" y="40" class="titulo">Lenguajes más usados</text>
+
+  <svg x="25" y="62" width="300" height="10">
+    <mask id="barra"><rect width="300" height="10" rx="5" fill="#fff"/></mask>
+    <g mask="url(#barra)">
+      <rect x="0" width="253.65" height="10" fill="#4F5D95"/>
+      <rect x="253.65" width="24.42" height="10" fill="#663399"/>
+      <rect x="278.07" width="16.83" height="10" fill="#e34c26"/>
+      <rect x="294.90" width="4.14" height="10" fill="#f1e05a"/>
+      <rect x="299.04" width="0.96" height="10" fill="#f34b7d"/>
+    </g>
+  </svg>
+
+  <g transform="translate(25, 105)">
+    <circle cx="5" cy="-4" r="5" fill="#4F5D95"/><text x="16" class="lang">PHP 84.55%</text>
+    <circle cx="5" cy="21" r="5" fill="#663399"/><text x="16" y="25" class="lang">CSS 8.14%</text>
+    <circle cx="5" cy="46" r="5" fill="#e34c26"/><text x="16" y="50" class="lang">HTML 5.61%</text>
+  </g>
+  <g transform="translate(185, 105)">
+    <circle cx="5" cy="-4" r="5" fill="#f1e05a"/><text x="16" class="lang">JavaScript 1.38%</text>
+    <circle cx="5" cy="21" r="5" fill="#f34b7d"/><text x="16" y="25" class="lang">C++ 0.31%</text>
+  </g>
+</svg>

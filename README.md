@@ -86,7 +86,7 @@ Desarrollador full stack y líder técnico en Guadalajara. Construyo y opero sof
 ## 📊 Actividad
 
 <p align="center">
-  <img height="195" src="https://raw.githubusercontent.com/GustavoQuinteroC/GustavoQuinteroC/e4e6d24299c2163b9c6087caaba7b3c03983d7ba/lenguajes.svg" alt="Lenguajes más usados"><img height="195" src="https://streak-stats.demolab.com?user=GustavoQuinteroC&theme=tokyonight&hide_border=true&border_radius=0&locale=es" alt="Racha de contribuciones">
+  <img height="195" src="https://raw.githubusercontent.com/GustavoQuinteroC/GustavoQuinteroC/e26e3291be6c377203696a91c42716ccb8a30d01/lenguajes.svg" alt="Lenguajes más usados"><img height="195" src="https://streak-stats.demolab.com?user=GustavoQuinteroC&theme=tokyonight&hide_border=true&border_radius=0&locale=es" alt="Racha de contribuciones">
 </p>
 
 ---

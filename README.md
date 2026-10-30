@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://gustavoquintero.dev"><img src="https://img.shields.io/badge/Portafolio-gustavoquintero.dev-0b1220?style=for-the-badge&logo=googlechrome&logoColor=38bdf8" alt="Portafolio"></a>
-  <a href="https://www.linkedin.com/in/gustavo-quintero-81aa18169/"><img src="https://img.shields.io/badge/LinkedIn-Gustavo%20Quintero-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/gustavoquintero2000/"><img src="https://img.shields.io/badge/LinkedIn-Gustavo%20Quintero-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:contacto@gustavoquintero.dev"><img src="https://img.shields.io/badge/Correo-contacto%40gustavoquintero.dev-38bdf8?style=for-the-badge&logo=maildotru&logoColor=white" alt="Correo"></a>
   <a href="https://alkes.mx"><img src="https://img.shields.io/badge/Alkes-alkes.mx-1e293b?style=for-the-badge" alt="Alkes"></a>
 </p>

@@ -71,6 +71,7 @@ Desarrollador full stack y líder técnico en Guadalajara. Construyo y opero sof
 
 | Repositorio | Qué demuestra |
 |---|---|
+| [**crowdsec-coolify-skill**](https://github.com/GustavoQuinteroC/crowdsec-coolify-skill) | Skill abierta de Claude Code que instala CrowdSec en servidores Coolify con Traefik: bloqueo en proxy y firewall nftables, listas públicas de IPs y verificación por fases |
 | [**mi_cocina**](https://github.com/GustavoQuinteroC/mi_cocina) | Recetario familiar PWA en PHP puro: plan semanal, despensa, lista de compras y recetas con IA sin alucinaciones (OpenAI + validación estricta) |
 | [**smartpend_landing_page**](https://github.com/GustavoQuinteroC/smartpend_landing_page) | Página pública de SmartPend: pendientes y proyectos con folio, historial y formularios públicos |
 | [**mantis_landing_page**](https://github.com/GustavoQuinteroC/mantis_landing_page) | Página pública de Mantis: mantenimiento preventivo y correctivo con checklists y evidencias |

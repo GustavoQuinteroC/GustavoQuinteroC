@@ -48,96 +48,28 @@ OpenAI, Whisper, agentes en n8n y MCP; Claude Code todos los días.
 </tr>
 </table>
 
-## Proyectos destacados
+## Proyectos abiertos
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p>⭐ Destacado &nbsp;·&nbsp; Todos los que tienen demo están juntos en <a href="https://proyectos.gustavoquintero.dev"><b>proyectos.gustavoquintero.dev</b></a></p>
 
-### ⭐ [erpNeni](https://github.com/GustavoQuinteroC/erpNeni)
-
-ERP de ventas, entregas e inventario con cuenta demo. Laravel 13, AdminLTE 4, PHPUnit y Playwright en CI; manifiestos para Kubernetes.
-
-<sub><code>Laravel · MariaDB · Kubernetes</code></sub>
-
-<a href="https://github.com/GustavoQuinteroC/erpNeni"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://erpneni.gustavoquintero.dev"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ver demo"></a>
-
-</td>
-<td width="50%" valign="top">
-
-### ⭐ [acortador](https://github.com/GustavoQuinteroC/acortador)
-
-Acortador con QR, estadísticas y API REST con tokens. Redis resuelve cada redirección y las visitas se cuentan sin guardar la IP.
-
-<sub><code>Laravel · Redis · MariaDB</code></sub>
-
-<a href="https://github.com/GustavoQuinteroC/acortador"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://go.gustavoquintero.dev"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ver demo"></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⭐ [validador-cfdi](https://github.com/GustavoQuinteroC/validador-cfdi)
-
-Valida CFDI 4.0 contra los esquemas del SAT y explica cada error en español. Librería de Composer, comando y página web.
-
-<sub><code>PHP 8.5 · XSD · PHPStan</code></sub>
-
-<a href="https://github.com/GustavoQuinteroC/validador-cfdi"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/validador-cfdi/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ver demo"></a>
-
-</td>
-<td width="50%" valign="top">
-
-### ⭐ [crowdsec-coolify-skill](https://github.com/GustavoQuinteroC/crowdsec-coolify-skill)
-
-Skill de Claude Code que instala CrowdSec en servidores Coolify con Traefik: bloqueo en proxy y firewall, por fases verificables.
-
-<sub><code>Bash · Docker · Traefik</code></sub>
-
-<a href="https://github.com/GustavoQuinteroC/crowdsec-coolify-skill"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/crowdsec-coolify/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ver demo"></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⭐ [medidor-co2](https://github.com/GustavoQuinteroC/medidor-co2)
-
-Firmware ESP32 + sensor SCD41: semáforo de ventilación, alarma, OLED y panel web. Se instala desde el navegador.
-
-<sub><code>C++ · PlatformIO · ESP32</code></sub>
-
-<a href="https://github.com/GustavoQuinteroC/medidor-co2"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/medidor-co2/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ver demo"></a>
-
-</td>
-<td width="50%" valign="middle" align="center">
-
-### Todos los proyectos en vivo
-
-Los 14 proyectos con demo, en una sola página: abre cualquiera sin instalar nada.
-
-<a href="https://proyectos.gustavoquintero.dev"><img src="https://img.shields.io/badge/proyectos.gustavoquintero.dev-00c389?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir proyectos.gustavoquintero.dev"></a>
-
-</td>
-</tr>
-</table>
-
-## Más proyectos abiertos
-
-| Proyecto | Qué hace | Enlaces |
-|:--|:--|:--:|
-| [**estado-de-cuenta-a-excel**](https://github.com/GustavoQuinteroC/estado-de-cuenta-a-excel) | PDF de estado de cuenta bancario a Excel con Python en el navegador (Pyodide). | <a href="https://github.com/GustavoQuinteroC/estado-de-cuenta-a-excel"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/estado-de-cuenta/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**calculadora-iva**](https://github.com/GustavoQuinteroC/calculadora-iva) | IVA y retenciones de IVA e ISR al centavo con BigInt y el nodo de impuestos del CFDI. | <a href="https://github.com/GustavoQuinteroC/calculadora-iva"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/iva/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**cantidad-con-letra**](https://github.com/GustavoQuinteroC/cantidad-con-letra) | Importes a letra para facturas y cheques: la misma librería en JavaScript, PHP y Python. | <a href="https://github.com/GustavoQuinteroC/cantidad-con-letra"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/cantidad-con-letra/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**rfc-curp**](https://github.com/GustavoQuinteroC/rfc-curp) | Valida RFC y CURP con dígito verificador y errores explicados; TypeScript sin dependencias. | <a href="https://github.com/GustavoQuinteroC/rfc-curp"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/rfc-curp/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**qr-por-lotes**](https://github.com/GustavoQuinteroC/qr-por-lotes) | Códigos QR uno por uno o por lotes desde CSV o Excel a PDF, todo en el navegador. | <a href="https://github.com/GustavoQuinteroC/qr-por-lotes"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/qr/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**generador-contrasenas**](https://github.com/GustavoQuinteroC/generador-contrasenas) | Contraseñas aleatorias, frases en español y derivadas con PBKDF2 y Web Crypto. | <a href="https://github.com/GustavoQuinteroC/generador-contrasenas"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/contrasenas/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**paletas-y-temas**](https://github.com/GustavoQuinteroC/paletas-y-temas) | Paletas en OKLCH con escalas 50 a 950, contraste WCAG y exportación a CSS, Tailwind y Bootstrap. | <a href="https://github.com/GustavoQuinteroC/paletas-y-temas"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/paletas/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**invitacion-boda**](https://github.com/GustavoQuinteroC/invitacion-boda) | Invitación de boda en un solo archivo: cuenta regresiva, mapas, confirmación y galería. | <a href="https://github.com/GustavoQuinteroC/invitacion-boda"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://proyectos.gustavoquintero.dev/invitacion-boda/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**mi_cocina**](https://github.com/GustavoQuinteroC/mi_cocina) | Recetario familiar PWA en PHP puro con recetas por IA validadas para que no inventen. | <a href="https://github.com/GustavoQuinteroC/mi_cocina"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a>&nbsp;<a href="https://micocina.gustavoquintero.dev"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
-| [**tareasOnKubernetes**](https://github.com/GustavoQuinteroC/tareasOnKubernetes) | API REST en PHP con MariaDB, contenerizada y desplegada en Kubernetes. | <a href="https://github.com/GustavoQuinteroC/tareasOnKubernetes"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a> |
-| [**Airflow**](https://github.com/GustavoQuinteroC/Airflow) | Pipeline ETL de tipos de cambio en Python orquestado con Apache Airflow. | <a href="https://github.com/GustavoQuinteroC/Airflow"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a> |
+| | Proyecto | Qué hace | Enlaces |
+|:-:|:--|:--|:-:|
+| ⭐ | [**erpNeni**](https://github.com/GustavoQuinteroC/erpNeni) | ERP de ventas, entregas e inventario en Laravel 13 y AdminLTE 4, con pruebas en navegador y manifiestos para Kubernetes.<br><sub>Laravel · MariaDB · Kubernetes</sub> | <a href="https://github.com/GustavoQuinteroC/erpNeni"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://erpneni.gustavoquintero.dev/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+| ⭐ | [**acortador**](https://github.com/GustavoQuinteroC/acortador) | Acortador de enlaces con QR, estadísticas y API REST. Cuenta las visitas sin guardar la IP de nadie.<br><sub>Laravel · MariaDB · Redis</sub> | <a href="https://github.com/GustavoQuinteroC/acortador"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://go.gustavoquintero.dev/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+| ⭐ | [**validador-cfdi**](https://github.com/GustavoQuinteroC/validador-cfdi) | Valida CFDI 4.0 contra los esquemas del SAT y explica cada error en español. Librería, comando y página web.<br><sub>PHP · XSD</sub> | <a href="https://github.com/GustavoQuinteroC/validador-cfdi"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/validador-cfdi/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+| ⭐ | [**crowdsec-coolify-skill**](https://github.com/GustavoQuinteroC/crowdsec-coolify-skill) | Skill abierta de Claude Code que instala CrowdSec en servidores Coolify con Traefik: bloqueo en proxy y firewall, listas públicas de IPs y verificación por fases.<br><sub>Bash · Docker · Traefik</sub> | <a href="https://github.com/GustavoQuinteroC/crowdsec-coolify-skill"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/crowdsec-coolify/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+| ⭐ | [**medidor-co2**](https://github.com/GustavoQuinteroC/medidor-co2) | Firmware de un medidor de CO₂ con ESP32 y sensor SCD41: semáforo, alarma, pantalla OLED y panel web. Se instala desde el navegador.<br><sub>C++ · PlatformIO · ESP32</sub> | <a href="https://github.com/GustavoQuinteroC/medidor-co2"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/medidor-co2/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**estado-de-cuenta-a-excel**](https://github.com/GustavoQuinteroC/estado-de-cuenta-a-excel) | Convierte el PDF del estado de cuenta bancario en Excel con Python dentro del navegador. El PDF no sale del equipo.<br><sub>Python · Pyodide</sub> | <a href="https://github.com/GustavoQuinteroC/estado-de-cuenta-a-excel"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/estado-de-cuenta/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**mi_cocina**](https://github.com/GustavoQuinteroC/mi_cocina) | Recetario familiar PWA: plan semanal, despensa, lista de compras y recetas con IA validadas para que no inventen.<br><sub>PHP · PWA · OpenAI</sub> | <a href="https://github.com/GustavoQuinteroC/mi_cocina"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://micocina.gustavoquintero.dev/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**calculadora-iva**](https://github.com/GustavoQuinteroC/calculadora-iva) | IVA y retenciones de IVA e ISR al centavo, con el nodo de impuestos del CFDI listo para copiar.<br><sub>JavaScript · BigInt</sub> | <a href="https://github.com/GustavoQuinteroC/calculadora-iva"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/iva/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**cantidad-con-letra**](https://github.com/GustavoQuinteroC/cantidad-con-letra) | Cantidades a letra para facturas y cheques (MIL PESOS 50/100 M.N.). La misma librería en JavaScript, PHP y Python con casos compartidos.<br><sub>JavaScript · PHP · Python</sub> | <a href="https://github.com/GustavoQuinteroC/cantidad-con-letra"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/cantidad-con-letra/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**rfc-curp**](https://github.com/GustavoQuinteroC/rfc-curp) | Valida RFC y CURP con dígito verificador y explica cada error en español.<br><sub>TypeScript</sub> | <a href="https://github.com/GustavoQuinteroC/rfc-curp"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/rfc-curp/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**qr-por-lotes**](https://github.com/GustavoQuinteroC/qr-por-lotes) | Códigos QR uno por uno o por lotes desde CSV o Excel a PDF, todo en el navegador.<br><sub>JavaScript</sub> | <a href="https://github.com/GustavoQuinteroC/qr-por-lotes"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/qr/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**generador-contrasenas**](https://github.com/GustavoQuinteroC/generador-contrasenas) | Contraseñas aleatorias, frases en español y contraseñas derivadas con PBKDF2 y Web Crypto.<br><sub>TypeScript · Web Crypto</sub> | <a href="https://github.com/GustavoQuinteroC/generador-contrasenas"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/contrasenas/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**paletas-y-temas**](https://github.com/GustavoQuinteroC/paletas-y-temas) | Paletas por teoría del color en OKLCH con contraste WCAG y exportación a CSS, Tailwind y Bootstrap.<br><sub>TypeScript · OKLCH</sub> | <a href="https://github.com/GustavoQuinteroC/paletas-y-temas"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/paletas/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**invitacion-boda**](https://github.com/GustavoQuinteroC/invitacion-boda) | Invitación de boda digital en un solo archivo: cuenta regresiva, mapas, confirmación por código y galería.<br><sub>HTML · CSS · JavaScript</sub> | <a href="https://github.com/GustavoQuinteroC/invitacion-boda"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a><br><a href="https://proyectos.gustavoquintero.dev/invitacion-boda/"><img src="https://img.shields.io/badge/Ver%20demo-2350ff?style=flat-square&logo=googlechrome&logoColor=white" alt="Ver demo"></a> |
+|  | [**tareasOnKubernetes**](https://github.com/GustavoQuinteroC/tareasOnKubernetes) | API REST en PHP con MariaDB, contenerizada y desplegada en Kubernetes.<br><sub>PHP · Docker</sub> | <a href="https://github.com/GustavoQuinteroC/tareasOnKubernetes"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a> |
+|  | [**Airflow**](https://github.com/GustavoQuinteroC/Airflow) | Pipeline ETL de tipos de cambio en Python orquestado con Apache Airflow.<br><sub>Python · Airflow</sub> | <a href="https://github.com/GustavoQuinteroC/Airflow"><img src="https://img.shields.io/badge/Ver%20c%C3%B3digo-161b22?style=flat-square&logo=github&logoColor=white" alt="Ver código"></a> |
 
 ## Productos de Alkes
 

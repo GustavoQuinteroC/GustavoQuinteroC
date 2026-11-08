@@ -32,7 +32,7 @@ Desarrollador full stack y líder técnico en Guadalajara. Construyo y opero sof
 | [**GeoCheck**](https://geocheck.alkes.mx) | Control de asistencia | Geolocalización y fotografía |
 | [**SysPower**](https://syspower.alkes.mx) | Control remoto de equipos | Firmware ESP32 propio con actualizaciones OTA |
 
-> El código de estos productos es privado y con gusto lo muestro en una entrevista técnica. Las páginas públicas de cada uno están abiertas en la sección de proyectos.
+> El código de estos productos es privado y con gusto lo muestro en una entrevista técnica.
 
 ## 🛠️ Stack
 
@@ -69,20 +69,26 @@ Desarrollador full stack y líder técnico en Guadalajara. Construyo y opero sof
 
 ## 📂 Proyectos abiertos
 
-| Repositorio | Qué demuestra |
-|---|---|
-| [**crowdsec-coolify-skill**](https://github.com/GustavoQuinteroC/crowdsec-coolify-skill) | Skill abierta de Claude Code que instala CrowdSec en servidores Coolify con Traefik: bloqueo en proxy y firewall nftables, listas públicas de IPs y verificación por fases |
-| [**mi_cocina**](https://github.com/GustavoQuinteroC/mi_cocina) | Recetario familiar PWA en PHP puro: plan semanal, despensa, lista de compras y recetas con IA sin alucinaciones (OpenAI + validación estricta) |
-| [**smartpend_landing_page**](https://github.com/GustavoQuinteroC/smartpend_landing_page) | Página pública de SmartPend: pendientes y proyectos con folio, historial y formularios públicos |
-| [**mantis_landing_page**](https://github.com/GustavoQuinteroC/mantis_landing_page) | Página pública de Mantis: mantenimiento preventivo y correctivo con checklists y evidencias |
-| [**geocheck_landing_page**](https://github.com/GustavoQuinteroC/geocheck_landing_page) | Página pública de GeoCheck: control de asistencia por ubicación con NIP, geocerca y foto |
-| [**syspower_landing_page**](https://github.com/GustavoQuinteroC/syspower_landing_page) | Página pública de SysPower: reinicio físico remoto de equipos críticos desde el navegador |
-| [**erp_landing_page**](https://github.com/GustavoQuinteroC/erp_landing_page) | Página pública de Alkes ERP: gestión empresarial con facturación CFDI 4.0 |
-| [**alkes_landing_page**](https://github.com/GustavoQuinteroC/alkes_landing_page) | Sitio de Alkes: software y soluciones TI, hecho a mano en HTML, CSS y JavaScript |
-| [**herramientas-web**](https://github.com/GustavoQuinteroC/herramientas-web) | Validador de CFDI 4.0 contra XSD en PHP y generadores de QR, contraseñas y gradientes |
-| [**erpNeni**](https://github.com/GustavoQuinteroC/erpNeni) | ERP de ventas e inventarios en Laravel, desplegado en Kubernetes |
-| [**tareasOnKubernetes**](https://github.com/GustavoQuinteroC/tareasOnKubernetes) | API REST en PHP con MariaDB, contenerizada y desplegada en Kubernetes |
-| [**Airflow**](https://github.com/GustavoQuinteroC/Airflow) | Pipeline ETL de tipos de cambio en Python con Apache Airflow |
+Casi todos se pueden usar en línea en **[proyectos.gustavoquintero.dev](https://proyectos.gustavoquintero.dev)**.
+
+| Repositorio | Qué demuestra | En línea |
+|---|---|---|
+| [**crowdsec-coolify-skill**](https://github.com/GustavoQuinteroC/crowdsec-coolify-skill) | Skill abierta de Claude Code que instala CrowdSec en servidores Coolify con Traefik: bloqueo en proxy y firewall nftables, listas públicas de IPs y verificación por fases |  |
+| [**acortador**](https://github.com/GustavoQuinteroC/acortador) | Acortador de enlaces con QR, estadísticas y API REST en Laravel 13, MariaDB y Redis; cuenta visitas sin guardar la IP | [Abrir](https://go.gustavoquintero.dev) |
+| [**validador-cfdi**](https://github.com/GustavoQuinteroC/validador-cfdi) | Valida CFDI 4.0 contra los esquemas del SAT y explica cada error en español: librería PHP, comando y página | [Abrir](https://proyectos.gustavoquintero.dev/validador-cfdi/) |
+| [**medidor-co2**](https://github.com/GustavoQuinteroC/medidor-co2) | Firmware ESP32 + Sensirion SCD41 en C++ con PlatformIO: semáforo, alarma, OLED, panel web e instalación desde el navegador | [Abrir](https://proyectos.gustavoquintero.dev/medidor-co2/) |
+| [**estado-de-cuenta-a-excel**](https://github.com/GustavoQuinteroC/estado-de-cuenta-a-excel) | PDF de estado de cuenta bancario a Excel con Python en el navegador (Pyodide); el PDF no sale del equipo | [Abrir](https://proyectos.gustavoquintero.dev/estado-de-cuenta/) |
+| [**mi_cocina**](https://github.com/GustavoQuinteroC/mi_cocina) | Recetario familiar PWA en PHP puro: plan semanal, despensa, lista de compras y recetas con IA sin alucinaciones (OpenAI + validación estricta) |  |
+| [**calculadora-iva**](https://github.com/GustavoQuinteroC/calculadora-iva) | IVA y retenciones de IVA e ISR al centavo con BigInt, con el nodo de impuestos del CFDI listo para copiar | [Abrir](https://proyectos.gustavoquintero.dev/iva/) |
+| [**cantidad-con-letra**](https://github.com/GustavoQuinteroC/cantidad-con-letra) | Cantidades a letra para facturas y cheques (MIL PESOS 50/100 M.N.); la misma librería en JavaScript, PHP y Python | [Abrir](https://proyectos.gustavoquintero.dev/cantidad-con-letra/) |
+| [**rfc-curp**](https://github.com/GustavoQuinteroC/rfc-curp) | Valida RFC y CURP con dígito verificador y errores explicados en español; TypeScript sin dependencias | [Abrir](https://proyectos.gustavoquintero.dev/rfc-curp/) |
+| [**qr-por-lotes**](https://github.com/GustavoQuinteroC/qr-por-lotes) | Códigos QR uno por uno o por lotes desde CSV/Excel a PDF, todo en el navegador | [Abrir](https://proyectos.gustavoquintero.dev/qr/) |
+| [**generador-contrasenas**](https://github.com/GustavoQuinteroC/generador-contrasenas) | Contraseñas aleatorias, frases en español y derivadas con PBKDF2 en TypeScript con Web Crypto | [Abrir](https://proyectos.gustavoquintero.dev/contrasenas/) |
+| [**paletas-y-temas**](https://github.com/GustavoQuinteroC/paletas-y-temas) | Paletas por teoría del color en OKLCH con escalas 50-950, contraste WCAG y exportación a CSS, Tailwind y Bootstrap | [Abrir](https://proyectos.gustavoquintero.dev/paletas/) |
+| [**invitacion-boda**](https://github.com/GustavoQuinteroC/invitacion-boda) | Invitación de boda digital en un solo archivo: cuenta regresiva, mapas, confirmación por código y galería | [Abrir](https://proyectos.gustavoquintero.dev/invitacion-boda/) |
+| [**erpNeni**](https://github.com/GustavoQuinteroC/erpNeni) | ERP de ventas e inventarios en Laravel, desplegado en Kubernetes |  |
+| [**tareasOnKubernetes**](https://github.com/GustavoQuinteroC/tareasOnKubernetes) | API REST en PHP con MariaDB, contenerizada y desplegada en Kubernetes |  |
+| [**Airflow**](https://github.com/GustavoQuinteroC/Airflow) | Pipeline ETL de tipos de cambio en Python con Apache Airflow |  |
 
 ## 📊 Actividad
 

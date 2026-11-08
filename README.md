@@ -93,7 +93,7 @@ Casi todos se pueden usar en línea en **[proyectos.gustavoquintero.dev](https:/
 ## 📊 Actividad
 
 <p align="center">
-  <img height="195" src="https://raw.githubusercontent.com/GustavoQuinteroC/GustavoQuinteroC/2406a33b73ced3bb4de35235f2c74e43933f6fd3/lenguajes.svg" alt="Lenguajes más usados"><img height="195" src="https://streak-stats.demolab.com?user=GustavoQuinteroC&theme=tokyonight&hide_border=true&border_radius=0&locale=es" alt="Racha de contribuciones">
+  <img height="195" src="https://raw.githubusercontent.com/GustavoQuinteroC/GustavoQuinteroC/3e507256bd2511726c550b3c1533d3ba9e69aca1/lenguajes.svg" alt="Lenguajes más usados"><img height="195" src="https://streak-stats.demolab.com?user=GustavoQuinteroC&theme=tokyonight&hide_border=true&border_radius=0&locale=es" alt="Racha de contribuciones">
 </p>
 
 ---

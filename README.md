@@ -86,7 +86,7 @@ Casi todos se pueden usar en línea en **[proyectos.gustavoquintero.dev](https:/
 | [**generador-contrasenas**](https://github.com/GustavoQuinteroC/generador-contrasenas) | Contraseñas aleatorias, frases en español y derivadas con PBKDF2 en TypeScript con Web Crypto | [Abrir](https://proyectos.gustavoquintero.dev/contrasenas/) |
 | [**paletas-y-temas**](https://github.com/GustavoQuinteroC/paletas-y-temas) | Paletas por teoría del color en OKLCH con escalas 50-950, contraste WCAG y exportación a CSS, Tailwind y Bootstrap | [Abrir](https://proyectos.gustavoquintero.dev/paletas/) |
 | [**invitacion-boda**](https://github.com/GustavoQuinteroC/invitacion-boda) | Invitación de boda digital en un solo archivo: cuenta regresiva, mapas, confirmación por código y galería | [Abrir](https://proyectos.gustavoquintero.dev/invitacion-boda/) |
-| [**erpNeni**](https://github.com/GustavoQuinteroC/erpNeni) | ERP de ventas e inventarios en Laravel, desplegado en Kubernetes |  |
+| [**erpNeni**](https://github.com/GustavoQuinteroC/erpNeni) | ERP de ventas, entregas e inventario en Laravel 13 con cuenta demo; incluye manifiestos para Kubernetes | [Abrir](https://erpneni.gustavoquintero.dev) |
 | [**tareasOnKubernetes**](https://github.com/GustavoQuinteroC/tareasOnKubernetes) | API REST en PHP con MariaDB, contenerizada y desplegada en Kubernetes |  |
 | [**Airflow**](https://github.com/GustavoQuinteroC/Airflow) | Pipeline ETL de tipos de cambio en Python con Apache Airflow |  |
 

@@ -134,7 +134,7 @@ OpenAI, Whisper, agentes en n8n y MCP; Claude Code todos los días.
 ## Actividad
 
 <p align="center">
-  <img height="195" src="https://raw.githubusercontent.com/GustavoQuinteroC/GustavoQuinteroC/49dc3ba22e5a86b5336772ef53bcb5a9a9939003/lenguajes.svg" alt="Lenguajes más usados"><img height="195" src="https://streak-stats.demolab.com?user=GustavoQuinteroC&theme=tokyonight&hide_border=true&border_radius=0&locale=es" alt="Racha de contribuciones">
+  <img height="195" src="https://raw.githubusercontent.com/GustavoQuinteroC/GustavoQuinteroC/507f3890e0c4300d7e40576e9b481480f55558a0/lenguajes.svg" alt="Lenguajes más usados"><img height="195" src="https://streak-stats.demolab.com?user=GustavoQuinteroC&theme=tokyonight&hide_border=true&border_radius=0&locale=es" alt="Racha de contribuciones">
 </p>
 
 ---
